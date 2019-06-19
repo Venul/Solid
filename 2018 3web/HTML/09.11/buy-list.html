@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buy list</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/repair_logo2sm.png" type="image/ico">
+</head>
+    
+<body class="landing green">
+    <header>
+        <div class="top-icons">
+            <a href="#">
+                <i class="fa fa-question"></i>Faq`s
+            </a>
+             <a href="#">
+                <i class="fa fa-phone"></i>Locations
+            </a>
+            <div class="info-block checkout">
+                <a href="#" title="Checkout">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="sum">
+                        $ <b>0</b>
+                    </span>
+                    ShoppingCart
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="container menu">
+            <a href="#" class="logo">
+                <img src="img/repair_logo2sm.png" alt="">
+                Quality Cellular
+            </a>
+
+            <div class="menu-buttons">
+                <a href="#" class="btn buy">Buy</a>
+                <a href="#" class="btn sell">Sell</a>
+                <a href="#"class="btn repair">Repair or Unlock</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container buy-workflow">
+        <div class="row">
+            <div class="col-md-3" id="list">
+                <div class="panel-group" id="grade">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#grade" href="#collapseGrade">
+                                    <div class="toggle-list">
+                                        <p class="toggle-elem">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="toggle-elem plus">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </p>
+                                    </div>
+                                    Grade
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseGrade" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="cute">
+                                    <li class="subitem1">
+                                        <input type="checkbox" name="G_New" id="G_New" value="New"> New
+                                    </li>
+                                    <li class="subitem2">
+                                        <input type="checkbox" name="G_Mint" id="G_Mint" value="Mint"> Mint
+                                    </li>
+                                    <li class="subitem3">
+                                        <input type="checkbox" name="G_Good" id="G_Good" value="Good"> Good
+                                    </li>
+                                    <li class="subitem4">
+                                        <input type="checkbox" name="G_Fair" id="G_Fair" value="Fair"> Fair
+                                    </li>
+                                    <li class="subitem5">
+                                        <input type="checkbox" name="G_Poor" id="G_Poor" value="Poor"> Poor
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-group" id="color">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#color" href="#collapseColor">
+                                    <div class="toggle-list">
+                                        <p class="toggle-elem">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="toggle-elem plus">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </p>
+                                    </div>
+                                    Color
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseColor" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="cute">
+                                    <li class="subitem1">
+                                        <input type="checkbox" name="Clr_Black" id="Clr_Black" value="Black"> Black
+                                    </li>
+                                    <li class="subitem2">
+                                        <input type="checkbox" name="Clr_Gold" id="Clr_Gold" value="Gold"> Gold
+                                    </li>
+                                    <li class="subitem3">
+                                        <input type="checkbox" name="Clr_Gray" id="Clr_Gray" value="Gray"> Gray
+                                    </li>
+                                    <li class="subitem4">
+                                        <input type="checkbox" name="Clr_RoseGold" id="Clr_RoseGold" value="Rose Gold"> Rose Gold
+                                    </li>
+                                    <li class="subitem5">
+                                        <input type="checkbox" name="Clr_Silver" id="Clr_Silver" value="Silver"> Silver
+                                    </li>
+                                    <li class="subitem6">
+                                        <input type="checkbox" name="Clr_White" id="Clr_White" value="White"> White
+                                    </li>
+                                    <li class="subitem7">
+                                        <input type="checkbox" name="Clr_Other" id="Clr_Other" value="Other"> Other
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-group" id="storage">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#storage" href="#collapseStorage">
+                                    <div class="toggle-list">
+                                        <p class="toggle-elem">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="toggle-elem plus">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </p>
+                                    </div>
+                                    Storage
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseStorage" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="cute">
+                                    <li class="subitem1">
+                                        <input type="checkbox" name="Str_8GB" id="Str_8GB" value="8GB"> 8GB
+                                    </li>
+                                    <li class="subitem2">
+                                        <input type="checkbox" name="Str_16GB" id="Str_16GB" value="16GB"> 16GB
+                                    </li>
+                                    <li class="subitem3">
+                                        <input type="checkbox" name="Str_32GB" id="Str_32GB" value="32GB"> 32GB
+                                    </li>
+                                    <li class="subitem4">
+                                        <input type="checkbox" name="Str_64GB" id="Str_64GB" value="64GB"> 64GB
+                                    </li>
+                                    <li class="subitem5">
+                                        <input type="checkbox" name="Str_128GB" id="Str_128GB" value="128GB"> 128GB
+                                    </li>
+                                    <li class="subitem6">
+                                        <input type="checkbox" name="Str_250GB" id="Str_250GB" value="250GB"> 250GB
+                                    </li>
+                                    <li class="subitem7">
+                                        <input type="checkbox" name="Str_256GB" id="Str_256GB" value="256GB"> 256GB
+                                    </li>
+                                    <li class="subitem8">
+                                        <input type="checkbox" name="Str_500GB" id="Str_500GB" value="500GB"> 500GB
+                                    </li>
+                                    <li class="subitem9">
+                                        <input type="checkbox" name="Str_512GB" id="Str_512GB" value="512GB"> 512GB
+                                    </li>
+                                    <li class="subitem10">
+                                        <input type="checkbox" name="Str_1TB" id="Str_1TB" value="1TB"> 1TB
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-group" id="carrier">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#carrier" href="#collapseCarrier">
+                                    <div class="toggle-list">
+                                        <p class="toggle-elem">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="toggle-elem plus">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </p>
+                                    </div>
+                                    Carrier
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseCarrier" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="cute">
+                                    <li class="subitem1">
+                                        <input type="checkbox" name="Car_ATNT" id="Car_ATNT" value="AT&amp;T"> AT&amp;T
+                                    </li>
+                                    <li class="subitem2">
+                                        <input type="checkbox" name="Car_Sprint" id="Car_Sprint" value="Sprint"> Sprint
+                                    </li>
+                                    <li class="subitem3">
+                                        <input type="checkbox" name="Car_TMobile" id="Car_TMobile" value="T-Mobile"> T-Mobile
+                                    </li>
+                                    <li class="subitem4">
+                                        <input type="checkbox" name="Car_Verizon" id="Car_Verizon" value="Verizon"> Verizon
+                                    </li>
+                                    <li class="subitem5">
+                                        <input type="checkbox" name="Car_Unlocked" id="Car_Unlocked" value="Unlocked"> Unlocked
+                                    </li>
+                                    <li class="subitem6">
+                                        <input type="checkbox" name="Car_USCellular" id="Car_USCellular" value="U.S.Cellular"> U.S.Cellular
+                                    </li>
+                                    <li class="subitem7">
+                                        <input type="checkbox" name="Car_MetroPCS" id="Car_MetroPCS" value="Metro-PCS"> Metro-PCS
+                                    </li>
+                                    <li class="subitem8">
+                                        <input type="checkbox" name="Car_Other" id="Car_Other" value="Other"> Other
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="panel-group" id="make">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#make" href="#collapseMake">
+                                    <div class="toggle-list">
+                                        <p class="toggle-elem">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="toggle-elem plus">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </p>
+                                    </div>
+                                    Make
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseMake" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="cute">
+                                    <li class="subitem1">
+                                        <input type="checkbox" name="Mak_Apple" id="Mak_Apple" value="Apple"> Apple
+                                    </li>
+                                    <li class="subitem2">
+                                        <input type="checkbox" name="Mak_LG" id="Mak_LG" value="LG"> LG
+                                    </li>
+                                    <li class="subitem3">
+                                        <input type="checkbox" name="Mak_HTC" id="Mak_HTC" value="HTC"> HTC
+                                    </li>
+                                    <li class="subitem4">
+                                        <input type="checkbox" name="Mak_Samsung" id="Mak_Samsung" value="Samsung"> Samsung
+                                    </li>
+                                    <li class="subitem5">
+                                        <input type="checkbox" name="Mak_Other" id="Mak_Other" value="Other"> Other
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h2>Tablet</h2>
+                <a href="#" class="pagination">1</a>
+                <div class="select">
+                <span>Sort by:</span>
+                    <select>
+                        <option value="Recent">Recent</option>
+                        <option value="Lowest">Lowest to Highest</option>
+                        <option value="Highest">Highest to Lowest</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#" class="menu-buttons">
+                            <img src="img/buy-list/1.jpg" alt="">
+                            <span>Apple iPad 1st Generation 32GB Wi-Fi</span><p class="price">$300.00</p>
+                            <p class="btn buy">Buy</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="menu-buttons">
+                            <img src="img/buy-list/2.jpg" alt="">
+                            <span>Apple iPad 1st Generation 32GB Wi-Fi</span><p class="price">$125.00</p>
+                            <p class="btn buy">Buy</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="col-md-6">
+                <div class="footer-header">
+                    <div class="arrow">
+                        <i class="fa fa-chevron-right" aria-hidden="true">
+                        </i>
+                    </div>
+                    <p>Popular searches</p>
+                </div>
+                <ul class="footer-search">
+                    <li>
+                        <a href="#" title="Sell My Cell Phone">Sell My Cell Phone</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell Samsung Galaxy">Sell Samsung Galaxy</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="iPad Buyback">iPad Buyback</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell Your iPhone">Sell Your iPhone</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell Samsung Phone">Sell Samsung Phone</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Cash for Used Cell Phone">Cash for Used Cell Phone</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell iPad Pro">Sell iPad Pro</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell Metro PCS Phone">Sell Metro PCS Phone</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell Galaxy S">Sell Galaxy S</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell Broken iPhone">Sell Broken iPhone</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="iPhone Resale">iPhone Resale</a>
+                    </li>
+                    |
+                    <li>
+                        <a href="#" title="Sell HTC Phone">Sell HTC Phone</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <div class="footer-header">
+                    <div class="arrow">
+                        <i class="fa fa-chevron-right" aria-hidden="true">
+                        </i>
+                    </div>
+                    <p>Find out more</p>
+                </div>
+                <ul class="footer-find">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>Contact us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>Faq’s
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>Privacy Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>Terms &amp; Conditions
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-header">
+                    <div class="arrow">
+                        <i class="fa fa-chevron-right" aria-hidden="true"> </i>
+                    </div>
+                    <p>Connect with us</p>
+                </div>
+                <div class="icons">
+                    <div class="social-button">
+                        <a target="_blank" href="#"><i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="social-button">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="social-button">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>
+                    ©2017 Quality Cellular All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/show-all.js"></script>
+    
+</html>
+
+

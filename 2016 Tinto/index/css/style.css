@@ -1,0 +1,431 @@
+@font-face {
+    font-family: 'Museo'; 
+    src: url('../fonts/MuseoSansCyrl_1.otf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Museo', 'Times New Roman', serif;
+    min-height: 0;
+}
+
+.big-banner {
+    width: 100%;
+}
+
+.navbar-static-top {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.wrapper {
+    background: #e3edeb;
+}
+
+.top-menu {
+    margin-left: 100px;
+}
+
+.navbar-nav.top-menu li a,
+.shop a {
+    color: #3f0c35;
+    font-weight: 300;
+    font-size: 24px;
+    text-shadow: none;
+}
+
+.navbar-static-top .navbar-nav.top-menu li a:hover,
+.active {
+    border-bottom: 2px solid #ffb800;
+    color: #3f0c35;
+}
+
+.shop {
+    float: right;
+    text-transform: uppercase;
+    border: 1px solid #3f0c35;
+    padding: 3px;
+}
+
+.shape {
+    width: 100%;
+    margin-top: -40px;
+}
+
+.point {
+    margin: 0 auto;
+    margin-top: -50px;
+    display: block;
+}
+
+.goods {
+    margin-top: 20px;
+    background: #e3edeb;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.circle-img {
+    margin-top: 260px;
+}
+/*****/
+.circle-img img {
+    margin: 15px 5px;
+    border: 2px solid #3f0c35;
+    border-radius: 50px;
+    background: #3f0c35;
+}
+/*****/
+.big-pict img {
+    margin: 0 auto;
+    display: block;
+}
+
+.big-pict .refresh {
+    margin-top: 20px;
+}
+
+.group-pict {
+    margin-top: 20px;
+    display: flex;
+}
+/*****/
+.group-pict img {
+    border: 2px solid #3f0c35;
+    background: #3f0c35;
+}
+
+.group-pict img:hover,
+.circle-img img:hover {
+    border-color: #ffb800;
+    background: #ffb800;
+}
+/*****/
+.discription,
+.big-pict {
+    margin-top: 40px;
+}
+
+.characters {
+    color: #666666;
+}
+
+.rate {
+    color: #0f1010;
+}
+
+.head-disc {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.characters p a {
+    color: #3f0c35;
+}
+
+.characters p a:hover {
+    color: #ffb800;
+    text-decoration: none;
+}
+
+.value {
+    display: table;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 30px 0 0 0;
+}
+
+.value li {
+    display: table-cell;
+    padding: 0 20px;
+}
+
+.new-value {
+    color: #3f0c35;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.old-value {
+    color: #010101;
+    font-size: 25px;
+    text-decoration: line-through;
+}
+
+.buy-info {
+    width: 300px;
+}
+
+.btn-info {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    background: #3f0c35;
+    font-size: 20px;
+
+    border: none;
+}
+
+.btn-info:hover {
+    color: #ffb800;
+    background: #3f0c35;
+}
+
+footer {
+    background: #3f0c35;
+    width: 100%;
+}
+
+footer .octopus {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 5px 0;
+}
+
+footer .social {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer .social img {
+    margin: 0 4px;
+}
+
+footer .social a:hover {
+    background: #ffb800;
+}
+
+.copyright {
+    background: #ffb800;
+    text-align: center;
+}
+
+.navbar-nav.top-menu.shop-menu li a,
+.navbar-nav.top-menu.shop-menu li a:hover {
+    color: #fff;
+}
+
+.navbar-nav.top-menu.shop-menu li a:hover {
+    margin-top: -2px;
+}
+
+.shop-bar {
+    background: #3f0c35;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.big-shops {
+    font-weight: 40px;
+    color: #3f0c35;    
+    background: #ffb800;
+    text-align: center;
+    height: 150px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+}
+
+.map {
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+.map-google {
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 3px 25px rgba(0,0,0,0.7);
+}
+
+.wrap-shop {
+    background: #e3edeb;
+}
+
+.address {
+    background: white;
+    height: 100px;
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.address li {
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+    border-left: 2px solid #ccc;
+}
+
+.address li:first-child {
+    border-left: none;
+}
+
+.address ul {
+    display: flex;
+    margin: 0;
+    padding: 15px 40px 0 40px;
+}
+
+.address p {
+    color: #010101;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+}
+
+.address img {
+    margin: 0 auto;
+    display: block;
+    height: 35px;
+    padding-bottom: 5px;
+}
+
+
+/********************/
+.accessories .big-banner {
+    opacity: 0.6;
+    position: absolute;
+}
+
+.braclets {
+    display: block;
+    margin: 0 auto;
+    padding-top: 400px;
+    position: relative;
+}
+
+.choice a {
+    display: inline-block;
+    color: #666666;
+    padding: 0 30px;
+}
+
+.choice {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.choice a:hover{
+    text-decoration: none;
+    color: #3f0c35;
+}
+
+.col-md-7.discription {
+    border-right: 2px solid #3f0c35;
+    font-size: 15px;
+}
+
+.col-md-3.col-xs-6.characters.acs-char,
+.head-disc-acs {
+    margin-left: 180px;
+}
+
+.col-md-5.col-xs-6.rate {
+    margin-left: 30px;
+}
+
+.head-disc-acs {
+    padding: 0 15px 10px 15px;
+}
+
+.circle-img.img-acs img {
+    width: 10%;
+}
+
+.circle-img.img-acs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.group-pict.pict-acs {
+    padding: 0 20px;
+}
+
+.acs-buy .buy-info {
+    width: 100%;
+}
+
+.acs-container {
+    background: #fff;
+}
+
+
+
+
+.col-md-4.acs-buy {
+    width: 285px;
+}
+
+.acs-buy .col-md-12 {
+    padding: 0;
+}
+
+.group-pict.pict-acs {
+    padding: 0;
+}
+
+.group-pict.pict-acs.big-pict img {
+    margin-right: 30px;
+    width: 65px;
+}
+
+.group-pict.pict-acs.big-pict img:last-child {
+    margin-right: 0;
+}
+
+
+.circle-img.img-acs img {
+    width: 30px;
+    margin: 15px 15px 0 0;
+}
+
+.circle-img.img-acs img:last-child {
+    margin-right: 0;
+}
+
+
+
+@media screen and (max-width: 1300px){
+    .circle-img {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .circle-img {
+        padding: inherit;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .shape {
+        margin-top: -30px;
+    }
+
+    .point {
+        margin-top: -35px;
+    }
+    
+    .buy-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .point {
+        width: 3%;
+        margin-top: -30px;
+    }    
+}

@@ -1,0 +1,733 @@
+/*
+Theme Name: IndieCup Portal
+Author: TheCap
+Version: 0.0.1
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #141113;
+    color: #ffffff;
+    font-family: 'Play', Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Play', Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.12;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.head-menu,
+.category-menu {
+    background: #141113;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.head-menu .navbar-nav.navbar-right a {
+    margin-left: 5px;
+}
+
+.head-menu .navbar-nav.navbar-right a:hover {
+    color: #f05dc2;
+}
+
+.head-menu .navbar-nav.navbar-right a:active,
+.head-menu .navbar-nav.navbar-right a:focus {
+    color: #e014a0;
+}
+
+.cup {
+    background: #471576;
+    min-height: 250px;
+    margin-top: 110px;
+}
+
+.cup h2 {
+    line-height: 1.42;
+    letter-spacing: 0.7px;
+}
+
+.cup p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #c1c1c1;
+    line-height: 1.61;
+    letter-spacing: 0.4px;
+}
+
+.prize-txt {
+    max-width: 520px;
+}
+
+.prize-txt h3 {
+    padding-top: 20px;
+}
+
+.prize-txt .btn-group,
+.prize-txt a.btn {
+    width: 100%;
+}
+
+.btn-group a.btn {
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-default {
+    background-color: #e014a0;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(191, 126, 227, 0.6);
+}
+
+.btn-default:hover {
+    background-color: #f05dc2;
+    color: #fff;
+}
+
+.btn-default:focus,
+.btn-default:active {
+    background-color: #be1087;
+    color: #fff;
+}
+
+.cup img {
+    position: absolute;
+    left: 10%;
+    margin-top: -30%;
+    width: 70%;
+}
+
+.prize-txt .btn-group {
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+.arrow-down img {
+    width: 44px;
+    margin: 0 auto;
+    display: inherit;
+    padding-top: 40px;
+}
+
+.contest {
+    background: url(img/img-rules.png) center center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contest h3,
+.contest p,
+.contest span {
+    margin: 0 auto;
+}
+
+.contest h3 {
+    max-width: 900px;
+    padding-top: 20px;
+    line-height: 1.42;
+    letter-spacing: 0.8px;
+}
+
+.contest p {
+    max-width: 700px;
+    padding-top: 32px;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.contest span {
+    letter-spacing: 0.9px;
+    font-size: 24px;
+    color: #e014a0;
+    font-family: 'Play', Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 45px 0 35px 0;
+    max-width: 800px;
+    display: block;
+}
+
+.carousel-control {
+    top: 50%;
+}
+
+.partners,
+.nomination {
+    margin-top: 65px;
+}
+
+.headers {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.headers span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 5px;
+    text-indent: -999px;
+    background-color: #e014a0;
+}
+
+.carousel-indicators .active {
+    background-color: #e014a0;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: #676566;
+}
+
+.carousel-indicators .active {
+    width: 60px;
+    height: 3px;
+    border: none;
+}
+
+.carousel-indicators {
+    margin-bottom: -3%;
+}
+
+.partners .btn-group {
+    float: right;
+    margin: -50px 20px 0 0;
+    background-color: #e014a0;
+}
+
+.nomination .nominations-list {
+    margin-top: 65px;
+}
+
+.nomination img {
+    display: block;
+    margin: 0 auto;
+}
+
+.nomination p {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Play-bold', Helvetica, sans-serif;
+}
+
+.nomination {
+    padding: 0 130px;
+}
+
+.center-btn.btn-group {
+    margin: 0 auto;
+    display: table;
+    padding-top: 60px;
+}
+
+.center-btn.btn-group,
+.center-btn a.btn {
+    width: 240px;
+}
+
+.headers {
+    margin-top: 70px;
+}
+
+.new-members img {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.slick-slider {
+    margin: 0 auto;
+}
+
+.carousel .item img,
+.carousel {
+    width: 100%;
+}
+
+.regular .slick-prev {
+    background: url(img/ic-left.png) center center;
+}
+
+.regular .slick-next {
+    background: url(img/ic-right.png) center center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: none;
+}
+
+.slick-prev,
+.slick-next {
+    width: 44px;
+    height: 44px;
+    opacity: 0.5;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: 0.9;
+}
+
+.slick-prev {
+    left: -60px;
+}
+
+.slick-next {
+    right: -60px;
+}
+
+.regular {
+    margin-top: 30px;
+}
+
+.carousel-control {
+    width: 20%;
+}
+
+.new-members p {
+    margin: 10px 0 0 13px;
+    text-transform: uppercase;
+}
+
+.new-members a {
+    color: #fff;
+}
+
+.new-members a:hover {
+    color: #c8c8c8;
+}
+
+.platinum,
+.gold,
+.partner-nomin {
+    margin: 35px 0 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
+.gold .group-partners {
+    width: 75%;
+}
+
+.group-partners img {
+    margin: 0 auto;
+    display: block;
+}
+
+.group-partners p {
+    margin-top: 10px;
+}
+
+.group-partners {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+.gold p {
+    color: #f5a623;
+}
+
+.partner-nomin .group-partners p,
+.partners-detail .group-partners p{
+    text-transform: none;
+}
+
+.group-partners .col-md-2 {
+    width: 20%;
+}
+
+.our-partners .btn-group {
+    padding-top: 0;
+}
+
+.win-banner {
+    background: url(img/winner-last-optional-image.png) center center;
+    background-size: cover;
+    height: 500px;
+}
+
+.news-banner {
+    height: 300px;
+    background: #322f31;
+}
+
+footer {
+    margin-top: 100px;
+    background: #000;
+}
+
+footer p:first-child {
+    color: #e014a0;
+}
+
+.contacts .col-md-3,
+.badge-foot {
+    margin-top: 25px;
+}
+
+.badge {
+    width: 37px;
+    height: 37px;
+    display: block;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    background: #c8c8c8;
+}
+
+.head-menu .navbar-nav.navbar-right .badge a, .badge-foot .badge {
+    padding: 10px;
+    margin-left: 0;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.head-menu .navbar-nav.navbar-right .badge {
+    margin: 0 5px;
+}
+
+.badge-foot {
+    float: right;
+}
+
+.badge-foot .badge {
+    padding: 5px;
+}
+
+.badge-foot p:first-child {
+    color: initial;
+}
+
+.badge-foot a:hover {
+    text-decoration: none;
+}
+
+.navbar-right .badge:hover,
+.badge-foot p:hover {
+    background: #f05dc2;
+}
+
+.head-menu .navbar-nav.navbar-right .badge a:hover {
+    color: #777;
+}
+
+.contest-top {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    border: 1px solid #e014a0;
+}
+
+.contest-bottom {
+    -webkit-transform: rotate(179deg);
+    -moz-transform: rotate(179deg);
+    -ms-transform: rotate(179deg);
+    -o-transform: rotate(179deg);
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
+.under-line {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/*partners_page style*/
+
+.our-partners-page h2,
+.about-us-page h2,
+.nomination-page h2,
+.participant-page h2 {
+    text-transform: uppercase;
+    line-height: 1.12;
+    letter-spacing: 1.3px;
+    text-align: center;
+    margin-bottom: 26px;
+    font-size: 33px;
+}
+
+.partners-line {
+    width: 204px;
+    height: 2px;
+    background-color: #e014a0;
+    margin: 0 auto;
+}
+
+.partners-detail p {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.detail-badge img {
+    width: 100%;
+}
+
+.detail-description h2 {
+    text-transform: uppercase;
+    line-height: 1.31;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #e014a0;
+    text-align: left;
+    margin: 0 0 10px 0;
+    font-size: 26px;
+}
+
+.detail-description p {
+    font-family: 'Roboto';
+    text-align: left;
+    text-transform: none;
+    line-height: 1.44;
+    letter-spacing: 0.5px;
+    margin: 0 0 30px 0;
+}
+
+.detail-description p:last-child {
+    margin: 0;
+}
+
+.block-detail {
+    margin: 20px 0 10px 0;
+    display: inline-block;
+}
+
+.bot-line {
+    margin-top: 30px;
+}
+
+.partners-detail .group-partners {
+    width: 100%;
+}
+
+.partners-detail p:first-child {
+    letter-spacing: 0.7px;
+}
+
+/*about us style*/
+
+.about-us-page p,
+.nomination-discript {
+    font-size: 24px;
+    line-height: 1.42;
+    letter-spacing: 0.8px;
+    width: 820px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-us-page div {
+    padding: 0;
+}
+
+.about-us-page .about-img-first {
+    padding-right: 20px;
+}
+
+.about-us-page div:last-child {
+    margin: 20px 0 10px 0;
+}
+
+.about-us-contacts h2:first-child {
+    margin: 23px 0 16px 0;
+}
+
+/*nomination style*/
+
+.nomination-badge {
+    margin: 80px auto 0 auto;
+    display: block;
+}
+
+.nomination-discript {
+    margin-bottom: 33px;
+}
+
+.partners-detail .jury {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.42;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nomination-page .detail-badge img {
+    width: 220px;
+    height: 220px;
+}
+
+.m-lg-top {
+    margin-top: 40px;
+}
+
+.p-md-left {
+    padding-left: 20px;
+}
+
+.about-us-contacts h2 {
+    text-transform: lowercase;
+    text-align: center;
+}
+
+/*participans style*/
+
+.navbar-static-top {
+    background: 0;
+    border: 0;
+    margin-bottom: 55px;
+}
+
+.navbar-static-top .navbar-header p,
+.navbar-default.navbar-static-top .navbar-nav li a {
+    font-size: 20px;
+    line-height: 1.85;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-default.navbar-static-top .navbar-nav li a {
+    padding: 15px 30px;
+}
+
+.navbar-static-top .navbar-header p {
+    color: #575757;
+    padding: 15px 43px 15px 0;
+}
+
+.navbar-default.navbar-static-top .navbar-nav li a:hover,
+.group-participans a p:hover {
+    color: #e014a0;
+    text-decoration: none;
+}
+
+.group-participans .col-md-4 {
+    padding: 0 15px 0 0;
+}
+
+.group-participans .col-md-4:last-child {
+    padding: 0;
+}
+
+.group-participans img {
+    width: 100%;
+    height: 303px;
+}
+.group-participans a p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    color: #fff;
+}
+
+.group-participans {
+    margin-bottom: 50px;
+}
+
+.participans-page .btn-group {
+    margin: 0 auto;
+    display: table;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+/*participiant_info style*/
+
+.participant-page h2 {
+    margin-top: 0;
+}
+
+top-info-participant,
+.participant-page h2 {
+    text-align: left;
+}
+
+.participant-page .col-md-7 {
+    padding-right: 25px;
+}
+
+.top-info-participant p {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+.top-info-participant span {
+    color: #575757;
+}
+
+.top-info-participant ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 63px;
+}
+
+.top-info-participant ul li {
+    float: left;
+    margin-right: 40px;
+}
+
+.top-info-participant ul li:last-child {
+    margin-right: 0;
+}
+
+.top-info-participant ul li a {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    color: #e014a0;
+}
+
+.top-info-participant ul li a:hover {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    color: #98076a;
+}
+
+.center-txt-participant {
+    margin: 40px 0 10px 0;
+}
+
+.center-txt-participant p {
+    font-family: 'Roboto', Helvetica, sans-serif;;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: 0.5px;
+}

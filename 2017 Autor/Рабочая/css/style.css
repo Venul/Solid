@@ -1,0 +1,338 @@
+/*
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('https://fonts.googleapis.com/css?family=Noto+Sans');
+}
+*/
+
+body {
+    padding-top: 150px;
+    background: #f4f4f4;
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    color: #2f2727;
+}
+
+nav {
+    background: #fff;
+}
+
+.logo {
+    width: 45px;
+    position: absolute;
+}
+
+.user {
+    width: 40px;
+}
+
+.user-bar img:last-child {
+    width: 15px;
+}
+
+.navbar .container,
+.navbar {
+    display: block;
+    padding-top: 0;
+}
+
+.navbar-brand {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.form-inline {
+    display: block;
+    width: 100%;
+}
+
+.form-inline hr {
+    margin-left: 50px;
+}
+
+.user-bar {
+    text-align: right;
+    padding-top: 8px;
+}
+
+.search-button {
+    margin-right: 20px;
+}
+
+/***********************/
+
+.category-menu li a {
+    font-size: 14px;
+    color: #4a4343;
+}
+
+.category-menu li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.category-menu li:first-child {
+    padding-left: 0;
+}
+
+.right-ul {
+    float: right;
+}
+
+.category-menu ul {
+    padding-left: 0;
+}
+
+.category-menu .badge {
+    border-radius: 20px;
+    background: #b01c33;
+    padding: 5px 7px;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+}
+
+.right-ul a:last-child {
+    font-weight: bold;
+}
+
+.right-ul li {
+    padding: 0;
+}
+
+.main-body a {
+    display: inline;
+}
+
+.main-body .cell {
+    background: #fff;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.main-body h2 {
+    font-size: 27px;
+    letter-spacing: -0.4px;
+    font-weight: bold;
+    display: inline;
+}
+
+.show-all {
+    float: right;
+    font-size: 14px;
+    color: #58ba51;
+}
+
+.head-block p {
+    margin: 0;
+}
+
+.main-body .cell .head-block {
+    margin: 0;
+}
+
+.head-block .flag {
+    width: 30px;
+    float: right;
+}
+
+.post {
+    display: inline-table;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-block span:first-child {
+    border-radius: 20px;
+    background: #ff0000;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 8px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.history {
+    border-radius: 20px;
+    border: 1px solid #58ba51;
+    padding: 2px 10px;
+    font-style: italic;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    color: #58ba51;
+    
+}
+
+.main-body .img-fon {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.img-fon.fon1 {
+    background: url(../img/fon1.png) center center;
+}
+
+.img-fon.fon2 {
+    background: url(../img/fon2.png) center center;
+}
+
+.img-fon.fon3 {
+    background: url(../img/fon3.png) center center;
+}
+
+.img-fon .history {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.img-fon.cell .white {
+    color: #fff;
+}
+
+.img-fon.cell .day,
+.img-fon.cell .btn,
+.img-fon.cell .history {
+    opacity: 0.7;
+}
+
+.h-555 {
+    height: 555px;
+}
+
+.most-discuss .col-8 {
+    background: none;
+}
+
+.main-body .cell.top-block {
+    margin-bottom: 15px;
+}
+
+.cell .btn-secondary,
+.autor {
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #58ba51;
+    padding-left: 0;
+}
+
+.sidebar-offcanvas h3 {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    color: #2f2727;
+}
+
+.list-of-autors img {
+    width: 35px;
+    float: left;
+    margin-right: 5px;
+}
+
+.list-of-autors h5 {
+    margin-bottom: 0;
+    color: #000;
+    font-size: 14px;
+}
+
+.list-of-autors p {
+    font-size: 12px;
+    color: #9a9a9a;
+    margin: 0;
+}
+
+.list-of-autors span {
+    color: #000;
+    font-weight: bold;
+}
+
+.sidebar-offcanvas .list-group-item {
+    border: none;
+    background: none;
+}
+
+.button-sidebar {
+    position: absolute;
+}
+
+.button-sidebar.up {
+    left: 10px;
+    top: 50px;
+}
+
+.button-sidebar.down {
+    left: 10px;
+    top: 150px;
+}
+
+.w-460 {
+    width: 460px;
+}
+
+.w-355 {
+    width: 355px;
+}
+
+.w-265 {
+    width: 265px;
+}
+
+.w-285 {
+    width: 285px;
+}
+
+.head-block img {
+    width: 35px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.head-block img:first-child {
+    margin-right: 10px;
+}
+
+.day {
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.cell h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #4a4343;
+    margin-top: 13px;
+}
+
+.cell .small-txt {
+    font-family: 'NotoSerif', Helvetica, sans-serif;;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4a4343;
+}
+
+.btn:focus,
+.btn:hover {
+    text-decoration: underline;
+    box-shadow: none;
+}
+
+.cell .small-txt.mb-24 {
+    margin-bottom: 24px;
+}
+
+.footer-block a {
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.footer-block img {
+    margin-left: 12px;
+}
+
+.most-discuss {
+    padding: 0;
+    margin-top: 20px;
+}

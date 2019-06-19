@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    font-smooth: always;
+    font-family: 'Rubik', Helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #43a9ff;
+
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 703px;
+    height: 72px;
+    background-color: #001f77;
+    padding: 10px 0 8px 25px;
+    overflow: hidden;
+    border: 1px solid #001f77;
+}
+
+.txt-block {
+    float: left;
+    margin-right: 20px;
+}
+
+.top p {
+    font-size: 10px;
+    margin: 0;
+    line-height: 0.9;
+    font-weight: 400;
+}
+
+.top p span {
+    font-family: 'Pacifico', Helvetica, arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.main-txt h1 {
+    margin: 7px 0 0 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.orange {
+    color: #edc154;
+    margin-left: 5px;
+}
+
+.main-txt span {
+    font-size: 12px;
+}
+
+.main-txt p {
+    margin: 0;
+}
+
+.bank {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 230px;
+    height: 90px;
+    margin: -10px 0 0 -20px;
+}
+
+.bank img {
+    width: 240px;
+    margin-top: -13px;
+}
+
+.copy {
+    margin-top: 5px;
+    font-size: 6px;
+    color: #1b56ad;
+}
+
+.red-block {
+    font-size: 24px;
+    color: #fff;
+    background: #d91d00;
+    border-radius: 5px;
+    right: 645px;
+    top: 49px;
+    position: absolute;
+    padding: 5px 10px;
+}

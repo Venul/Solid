@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico.ttf');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/Proxima Nova Regular.otf');
+}
+
+@font-face {
+    font-family: 'ProximaNovaExtrabld';
+    src: url('fonts/ProximaNova-Extrabld.ttf');
+}
+
+@font-face {
+    font-family: 'ProximaNovaBlack';
+    src: url('fonts/Proxima-Nova-Black.otf');
+}
+
+.container {
+    width: 728px;
+    height: 65px;
+    background-color: #e4e4e4;
+    padding: 8px 0 15px 30px;
+    border: solid 1px #b3b3b3;
+    overflow: hidden;
+}
+
+.txt-block {
+    float: left;
+    margin-right: 20px;
+}
+
+.top,
+.main-txt {
+    width: 360px;
+}
+
+.top p {
+    font-family: 'ProximaNova', Helvetica, arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    line-height: 0.9;
+}
+
+.top p span {
+    font-family: 'Pacifico', Helvetica, arial, sans-serif;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.main-txt h1 {
+    font-family: 'ProximaNovaExtrabld', Helvetica, arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    line-height: 1;
+}
+
+.main-txt .big {
+    background: #fdc032;
+}
+
+.color-blocks {
+    font-family: 'ProximaNovaBlack', Helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+}
+
+.color-blocks p {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.brown {
+    background: #b31b28;
+    width: 65px;
+    margin: 0 0 7px 0;
+}
+
+.brown span {
+    padding-left: 5px;
+}
+
+.orange {
+    font-size: 18px;
+    background: #ff7e00;
+    width: 120px;
+    margin: 0;
+}
+
+.earth {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 190px;
+    height: 90px;
+    margin: -10px 0 0 18px;
+}
+
+.container br {
+    display: none;
+}
+
+@media (min-width: 226px) and (max-width: 336px) and (min-height: 180px) and (max-height: 280px) {
+    .container {
+        width: 309px;
+        height: 243px;
+        padding: 15px 0 20px 25px;
+    }
+
+    .container .medium br {
+        display: none;
+    }
+
+    .container .top span br {
+        display: none;
+    }
+
+    .container br,
+    .container .big br{
+        display: block;
+    }
+
+    .txt-block {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-txt h1 {
+        margin: 20px 0 15px 0;
+        line-height: 1.1;
+        font-size: 26px;
+    }
+
+    .main-txt .medium {
+        background: #fdc032;
+    }
+
+    .earth img {
+        width: 217px;
+    }
+
+    .earth {
+        width: 180px;
+        height: 130px;
+        margin: -101px 0 0 131px;
+    }
+
+    .orange {
+        position: relative;
+        z-index: 99;
+    }
+}
+
+@media (min-width: 220px) and (max-width: 320px) and (max-height: 100px) {
+    .container {
+        width: 308px;
+        height: 72px;
+        padding: 6px 0 20px 10px;
+    }
+
+    .top p {
+        font-size: 10px;
+    }
+
+    .main-txt h1 {
+        margin: 0 0 5px 0;
+        line-height: 1;
+        font-size: 18px;
+    }
+
+    .main-txt .medium br {
+        display: block;
+    }
+
+    .main-txt .big br {
+        display: none;
+    }
+
+    .earth {
+        width: 92px;
+        height: 50px;
+        margin: -50px 0 0 216px;
+    }
+
+    .color-blocks p {
+        padding: 3px 10px;
+        border-radius: 10px;
+        float: left;
+    }
+
+    .earth img {
+        width: 115px;
+    }
+
+    .color-blocks .orange {
+        padding: 6px 10px;
+        margin-left: 10px;
+    }
+
+    .orange {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .txt-block {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px) and (min-height: 500px) and (max-height: 600px) {
+    .container {
+        width: 298px;
+        height: 578px;
+        padding: 20px 0 0 0;
+    }
+
+    .container .medium br {
+        display: none;
+    }
+
+    .txt-block {
+        text-align: center;
+    }
+
+    .txt-block .top span {
+        padding-bottom: 5px;
+        position: relative;
+        top: -5px;
+    }
+
+    .top,
+    .main-txt {
+        width: 100%;
+    }
+
+    .txt-block {
+        float: none;
+        margin: 0;
+    }
+
+    .container br,
+    .container .big br,
+    .container .top span br {
+        display: block;
+    }
+
+    .main-txt h1 {
+        margin: 20px 0 25px 0;
+        line-height: 1;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .main-txt .medium {
+        background: #fdc032;
+    }
+
+    .earth {
+        width: 350px;
+        height: 230px;
+        margin: 43px 0 0 -51px;
+    }
+
+    .earth img {
+        width: 375px;
+    }
+
+    .color-blocks {
+        float: none;
+    }
+
+    .color-blocks p {
+        margin: 0 auto;
+    }
+
+    .color-blocks .brown {
+        font-size: 26px;
+        width: 82px;
+        padding: 5px 20px;
+        margin-bottom: 10px;
+    }
+
+    .color-blocks .orange {
+        font-size: 23px;
+        width: 150px;
+        padding: 6px 10px;
+    }
+}
+
+
+@media (min-width: 200px) and (max-width: 300px) and (min-height: 150px) and (max-height: 250px) {
+    .container {
+        width: 278px;
+        height: 212px;
+        padding: 16px 0 20px 20px;
+    }
+
+    .container .medium br {
+        display: none;
+    }
+
+    .container .top span br {
+        display: none;
+    }
+
+    .container br,
+    .container .big br{
+        display: block;
+    }
+
+    .main-txt h1 {
+        margin: 18px 0 13px 0;
+        line-height: 1;
+        font-size: 26px;
+    }
+
+    .main-txt .medium {
+        background: #fdc032;
+    }
+
+    .earth {
+        width: 157px;
+        height: 100px;
+        margin: -90px 0 0 121px;
+    }
+
+    .orange {
+        position: relative;
+        z-index: 99;
+    }
+}

@@ -1,0 +1,115 @@
+footer {
+    background: url('/sites/img/landing/footer-background.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 25px 0 0;
+}
+
+.footer-header {
+    border-bottom: 2px solid black;
+    max-width: 230px;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+footer .arrow {
+    height: 23px;
+    width: 20px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer-header p {
+    display: inline-block;
+    font-size: 22px;
+    text-shadow: 2px 2px 1px #777;
+    letter-spacing: -.5px;
+    padding-left: 5px;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-search li {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-search li a {
+    color: #fff;
+    transition: all .35s;
+}
+
+.footer-find li {
+    list-style-type: none;
+    padding-bottom: 7px;
+    font-size: 14px;
+}
+
+.footer-find a {
+    color: #fff;
+}
+
+.footer-find a:hover {
+    color: #ee753b;
+    text-decoration: none;
+    transition: all .35s;
+}
+
+.footer-find i {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.icons {
+    margin-left: 35px;
+}
+
+.social-button {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 6px;
+}
+
+footer .social-button:hover {
+    color: #eb3812;
+    background: #5a80b8;
+    transition: all 0.3s;
+}
+
+footer .social-button a {
+    display: block;
+}
+
+footer .social-button a:hover {
+    color: inherit;
+}
+
+footer .bottom-bar p {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.social-button i {
+    line-height: 30px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 10px;
+    font-size: 12px;
+}

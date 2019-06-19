@@ -1,0 +1,267 @@
+#rotatescroll {
+    height:300px;
+    position:relative;
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+#rotatescroll .viewport {
+    height:550px;
+    position:relative;
+    margin:0 auto;
+    overflow:hidden;
+    max-width:1000px;
+    pointer-events:none;
+}
+
+#rotatescroll .overview {
+    position:absolute;
+    width:798px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    left:0;
+    top:0;
+}
+
+#rotatescroll .overview li {
+    height:300px;
+    width:1000px;
+    float:left;
+    position:relative;
+}
+
+#rotatescroll .overlay {
+    background:url(../img/health-hex.png) no-repeat 0 0;
+    pointer-events:none;
+    position:absolute;
+    left:403px;
+    top:40px;
+    height:300px;
+    width: 250px;
+}
+
+#rotatescroll .thumb { background:url(../img/images/bg-thumb.png) no-repeat 50% 50%;
+    touch-action:none;
+    -ms-touch-action:none;
+    position:absolute;
+    top:-3px;
+    cursor:pointer;
+    left:137px;
+    width:50px;
+    z-index:200;
+    height:50px;
+    opacity: 1;
+    background-size: 10px;
+}
+
+#rotatescroll .dot {
+    cursor:pointer;
+    height:12px;
+    width:12px;
+    position:absolute;
+    left:55px;
+    top:3px;
+    z-index:100;
+    opacity:1;
+}
+
+#rotatescroll .viewport ul {
+    margin-top: 105px;
+    margin-left: 5px;
+}
+
+#rotatescroll .dot span {
+    display: none;
+}
+
+#rotatescroll .dot-1:before  {
+    content: "Health";
+}
+
+#rotatescroll .dot-2:before  {
+    content: "Care";
+}
+
+#rotatescroll .dot-3:before  {
+    content: "Safety";
+}
+
+#rotatescroll .dot-4:before  {
+    content: "Blockchain";
+}
+
+#rotatescroll .dot-5:before  {
+    content: "Ease";
+}
+
+#rotatescroll .dot-6:before  {
+    content: "Speed";
+}
+
+#rotatescroll .viewport ul img {
+    width: 80px;
+    height: 80px;
+}
+
+#rotatescroll .dot-1 {
+    left: 485px !important;
+    top: 27px !important;
+}
+
+#rotatescroll .dot-2 {
+    top: 88px !important;
+    left: 600px !important;
+}
+
+#rotatescroll .dot-3 {
+    top: 192px !important;
+    left: 600px !important;
+}
+
+#rotatescroll .dot-4 {
+    top: 254px !important;
+    left: 466px !important;
+}
+
+#rotatescroll .dot-5 {
+    top: 192px !important;
+    left: 380px !important;
+}
+
+#rotatescroll .dot-6 {
+    top: 88px !important;
+    left: 369px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    #rotatescroll .thumb {
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #rotatescroll .overview li {
+        width: 700px;
+    }
+           
+    #rotatescroll .overlay {
+        left: 253px;
+    }
+       
+    #rotatescroll .thumb {
+        margin-left: 120px;
+    }
+    
+    #rotatescroll .dot-1 {
+        left: 330px !important;
+    }
+
+    #rotatescroll .dot-2 {
+        left: 450px !important;
+    }
+
+    #rotatescroll .dot-3 {
+        left: 450px !important;
+    }
+
+    #rotatescroll .dot-4 {
+        left: 316px !important;
+    }
+
+    #rotatescroll .dot-5 {
+        left: 225px !important;
+    }
+
+    #rotatescroll .dot-6 {
+        left: 214px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #rotatescroll .overview li {
+        width: 60%;
+    }
+    
+    #rotatescroll .overlay {
+        left: 253px;
+    }
+    
+    #rotatescroll .thumb {
+        margin-left: 130px;
+    }
+    
+    #rotatescroll .dot-1 {
+        left: 330px !important;
+    }
+
+    #rotatescroll .dot-2 {
+        left: 450px !important;
+    }
+
+    #rotatescroll .dot-3 {
+        left: 450px !important;
+    }
+
+    #rotatescroll .dot-4 {
+        left: 316px !important;
+    }
+
+    #rotatescroll .dot-5 {
+        left: 225px !important;
+    }
+
+    #rotatescroll .dot-6 {
+        left: 214px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #rotatescroll .overview li {
+        width: 200px;
+    }
+    
+    #rotatescroll .overlay {
+        left: 100px;
+    }
+    
+    #rotatescroll .thumb {
+        margin-left: 195px;
+    }
+    
+    #rotatescroll .dot-1 {
+        left: 180px !important;
+    }
+
+    #rotatescroll .dot-2 {
+        left: 300px !important;
+    }
+
+    #rotatescroll .dot-3 {
+        left: 300px !important;
+    }
+
+    #rotatescroll .dot-4 {
+        left: 166px !important;
+    }
+
+    #rotatescroll .dot-5 {
+        left: 75px !important;
+    }
+
+    #rotatescroll .dot-6 {
+        left: 64px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #rotatescroll .overlay {
+        left: 55px;
+        width: 205px;
+    }
+    
+    #rotatescroll .overview li {
+        width: 320px;
+    }
+
+}

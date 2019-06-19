@@ -1,0 +1,84 @@
+#92cc40
+#99e829
+#a3ff21
+.models p:hover,
+.show-all b:hover {
+    border-color: #92cc40;
+    color: #92cc40;
+}
+
+.sell-page {
+    background: #99e829;
+}
+
+.repair {
+    background: #a3ff21;
+}
+
+.footer-header {
+    border-color: #92cc40;
+}
+
+footer .arrow {
+    background: #92cc40;
+}
+
+.footer-bottom {
+    background: #92cc40;
+}
+
+header {
+    border-color: #92cc40;
+}
+
+.info-block {
+    background: #92cc40;
+}
+
+.menu-buttons .btn:hover {
+    border-color: #92cc40;
+    color: #92cc40;
+}
+
+.repair-item .paid.btn {
+    background: #a3ff21;
+    border-color: #a3ff21;
+}
+
+.repair-item .paid.btn:hover {
+    border-color: #a3ff21;
+    color: #a3ff21;
+}
+
+.repair-item .condition p {
+    color: #afcf3d;
+}
+
+.repair-item .condition div:hover p,
+.repair-item .condition div:focus p {
+    background-color: #afcf3d;
+}
+
+.buy {
+    background: #92cc40;
+    border-color: #92cc40;
+}
+
+.sell {
+    background: #99e829;
+    border-color: #99e829;
+}
+
+.repair {
+    background: #a3ff21;
+    border-color: #a3ff21;
+}
+
+.comments .name {
+    color: #92cc40;
+}
+
+.buy-page,
+.sell-page {
+    background: #92cc40;
+}

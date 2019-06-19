@@ -1,0 +1,519 @@
+body {
+    font-family: "proximanova-semibold", Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: "Proxima Nova Black", Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+header img {
+    width: 140px;
+}
+
+header {
+    margin-top: 35px;
+    -webkit-box-shadow: 0px 11px 12px -6px rgb(232, 230, 232);
+    -moz-box-shadow: 0px 11px 12px -6px rgb(232, 230, 232);
+    box-shadow: 0px 11px 12px -6px rgb(232, 230, 232);
+    padding-bottom: 30px;
+}
+
+header li {
+    padding: 0;
+    font-family: "proximanova-reg-webfont", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.nav li a {
+    padding: 10px 30px;
+}
+
+header li a:hover {
+    color: #ffa500;
+    background: inherit;
+}
+
+header .nav .frame,
+.top-block .frame {
+    padding: 5px 35px;
+    border-radius: 15px;
+    border: 1px solid #e4a5aa;
+}
+
+header .nav .mvp {
+    color: #bc1f2a;
+    padding: 0;
+}
+
+.nav li a:hover,
+.nav li a:focus {
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: inherit;
+}
+
+.dropdown li img {
+    margin-right: 20px;
+}
+
+.dropdown img {
+    width: 35px;
+}
+
+.nav .dropdown a {
+    padding: 0 35px 0 20px;
+    font-weight: bold;
+}
+
+.dropdown a,
+.frame {
+    font-size: 14px;
+}
+
+.dropdown li {
+    padding-top: 15px;
+}
+
+.dropdown-menu {
+    padding-bottom: 20px;
+}
+
+
+.top-block {
+    text-align: center;
+    overflow: hidden;
+}
+
+.slide a {
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+}
+
+.slide a:hover {
+    text-decoration: none;
+}
+
+.slide img {
+    height: 20px;
+}
+
+.top-block .frame {
+    margin: 0 10px;
+    border-color: #f5f4f4;
+    font-size: 16px;
+}
+
+.top-block h1 {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.top-block p {
+    font-size: 24px;
+    color: #0095cc;
+    margin-bottom: 40px;
+}
+
+.green:hover {
+    border-color: #009300;
+}
+
+.red:hover {
+    border-color: #ff0000;
+}
+
+.orange:hover {
+    border-color: #ffa500;
+}
+
+.slide {
+    margin-bottom: 80px;
+}
+
+.safari {
+    max-width: 100%;
+    margin-bottom: -255px;
+    overflow: hidden;
+}
+
+.conditions {
+    background: url(../img/bg-condit.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+}
+
+.fs-60 {
+    font-size: 50px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.conditions .col-md-4 {
+    text-align: center;
+    margin: 60px 0 0;
+    height: 100px;
+    color: #fff;
+}
+
+.conditions h1 {
+    height: 50px;
+}
+
+.conditions img {
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.conditions span {
+    font-size: 18px;
+    color: #56bdff;
+}
+
+.conditions .bit {
+    display: block;
+    height: 70px;
+    margin: 0 auto 10px;
+}
+
+.transform {
+    transform: rotate(10deg);
+    display: inline-block;
+    padding: 30px;
+    background: rgba(6,182,191,1);
+    background: -moz-linear-gradient(left, rgba(6,182,191,1) 0%, rgba(31,111,182,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(6,182,191,1)), color-stop(100%, rgba(31,111,182,1)));
+    background: -webkit-linear-gradient(left, rgba(6,182,191,1) 0%, rgba(31,111,182,1) 100%);
+    background: -o-linear-gradient(left, rgba(6,182,191,1) 0%, rgba(31,111,182,1) 100%);
+    background: -ms-linear-gradient(left, rgba(6,182,191,1) 0%, rgba(31,111,182,1) 100%);
+    background: linear-gradient(to right, rgba(6,182,191,1) 0%, rgba(31,111,182,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06b6bf', endColorstr='#1f6fb6', GradientType=1 );
+    border-radius: 5px;
+}
+
+.conditions .transform span {
+    color: #fff;
+}
+
+.transform h1 {
+    margin-top: 0;
+}
+
+.growth h1 {
+    font-size: 52px;
+    text-align: left;
+}
+
+.growth {
+    margin-top: 40px;
+}
+
+.growth span {
+    color: #bc1f2a;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.growth p {
+    font-size: 18px;
+    line-height: 2;
+    font-family: "proximanova-reg-webfont", Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 135px;
+    float: right;
+    padding: 0 30px;
+}
+
+.growth img {
+    margin-left: 35px;
+    height: 50px;
+    vertical-align: baseline;
+}
+
+.diagramm {
+    background: url(../img/structure.png) center center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+
+.diagramm h1 {
+    height: 55px;
+    margin-bottom: 0;
+}
+
+.diagramm .row {
+    text-align: center;
+    width: 85%;
+    margin: 100px auto 0;
+    display: block;
+}
+
+.diagramm p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.diagramm img {
+    max-width: 110%;
+}
+
+.diagramm .col-md-4 img {
+    max-width: 70%;
+    margin-top: 30px;
+}
+
+.diagramm .col-md-3 img {
+    margin-top: 55px;
+    max-width: 85%;
+}
+
+.form-block {
+    background: url(../img/bg-form.png) center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+}
+
+.form-block h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: left;
+}
+
+.form-block .container {
+    padding-top: 110px;
+}
+
+.form-block .container .row {
+    margin: 0 auto;
+    display: block;
+}
+
+.form-inline {
+    height: 170px;
+/*    max-width: 100%;*/
+     background: url(../img/form.png);
+    background-repeat: no-repeat;
+/*    background-size: contain;*/
+    float: right;
+    margin-top: -15px;
+}
+
+.form-inline input[type="email"]::-webkit-input-placeholder {
+    color: #000; 
+}
+
+.form-inline button {
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.form-inline button img {
+    height: 15px;
+    vertical-align: text-top;
+}
+
+.form-inline .form-control {
+    width: 100%;
+}
+
+.form-inline .form-control,
+.form-inline button {
+    height: 40px;
+    margin-top: 35px;
+}
+
+.form-inline .btn {
+    background: #66249d;
+}
+
+.form-inline .btn:hover {
+    background: #943ddd;
+    color: #fff;
+}
+
+.privacy {
+    float: left;
+    margin: 10px 0 0 15px;
+}
+
+.privacy span {
+    font-size: 14px;
+    font-family: "proximanova-reg-webfont", Helvetica, sans-serif;
+    color: #56bdff;
+    border-bottom: 1px solid #3460c1;
+}
+
+.privacy img {
+    height: 13px;
+    margin-right: 2px;
+}
+
+.road {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.road .row img {
+    height: 40px;
+}
+
+.road .row {
+    text-align: center;
+}
+
+.road .col-md-3 {
+    display: inline-block;
+    float: none;
+    width: 24%;
+    vertical-align: baseline;
+    margin-bottom: 10px;
+}
+
+.road .col-md-4:last-child {
+    margin-left: -7px;
+}
+
+.road .row p,
+.team p {
+    font-family: "Proxima Nova Black", Helvetica, sans-serif;
+    color: #8f228f;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.road .row span {
+    font-size: 12px;
+    display: block;
+}
+
+.road .row:last-child {
+    width: 80%;
+    margin: 20px auto 0;
+}
+
+.road hr {
+    margin-top: 120px;
+}
+
+.team {
+    background: url(../img/world.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.team .col-md-3 img {
+    max-width: 70%;
+}
+
+.team .col-md-3 span {
+    text-align: center;
+}
+
+.team .col-md-3 p img {
+    width: 15px;
+}
+
+.social ul {
+    padding: 0;
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social li a {
+    border: 1px solid #fff;
+    color: #000;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.social img {
+    width: 80px;
+}
+
+.social li a:hover {
+    border-color: orange;
+    text-decoration: none;
+}
+
+.social p {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.coming-soon {
+    background: url(../img/coming.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-top: 100px;
+}
+
+.coming-block {
+    padding-top: 300px;
+    color: #fff;
+}
+
+.coming-block img {
+    width: 150px;
+}
+
+.coming-soon .phone {
+    width: 380px;
+    float: right;
+    margin-top: -447px;
+}
+
+footer {
+    background: url(../img/footer.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer .container {
+    padding-top: 50px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}

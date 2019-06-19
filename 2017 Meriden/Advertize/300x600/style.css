@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    font-smooth: always;
+    font-family: 'Rubik', Helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #43a9ff;
+    text-align: center;
+
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 300px;
+    height: 565px;
+    background-color: #001f77;
+    padding: 15px 0 20px 0;
+    overflow: hidden;
+    border: 1px solid #001f77;
+}
+
+.txt-block {
+    float: left;
+    margin-right: 20px;
+}
+
+.top p {
+    font-size: 10px;
+    margin: 0;
+    line-height: 0.9;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.top p span {
+    font-family: 'Pacifico', Helvetica, arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-txt h1 {
+    color: #fff;
+    font-size: 30px;
+    margin: 30px 0 10px 0;
+}
+
+.orange {
+    color: #edc154;
+}
+
+.main-txt span {
+    font-size: 14px;
+    display: block;
+    padding-top: 10px;
+}
+
+.main-txt p {
+    margin: 0;
+}
+
+.bank {
+    position: relative;
+    width: 260px;
+    height: 205px;
+    margin-left: -25px;
+}
+
+.bank img {
+    width: 330px;
+    margin-top: 5px;
+}
+
+.copy {
+    margin-top: 5px;
+    font-size: 8px;
+    color: #1b56ad;
+    width: auto;
+    line-height: 10px;
+    padding: 0 10px;
+}
+
+.red-block {
+    font-size: 36px;
+    color: #fff;
+    background: #d91d00;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 150px;
+    margin: 20px auto;
+}

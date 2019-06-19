@@ -1,0 +1,236 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+.circle {
+    width: 210px;
+    padding: 6px;
+    position: absolute;
+    border: 1px dashed;
+    border-radius: 100%;
+}
+
+.circle span {
+    display: table-cell;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+
+.big-carousel .carousel-indicators {
+    display: none;
+}
+
+.testimonials {
+    background: url('/sites/img/landing/testimonial_bg.png') no-repeat center / cover;
+    padding: 45px 0 30px;
+}
+
+.buy-back-text p {
+    font-family: 'Furore', Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.white-border {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.white-border blockquote {
+    margin: 0;
+    border-left: none;
+}
+
+.white-border p {
+    font-size: 12px;
+}
+
+.buy-back-text {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.text-center img {
+    width: 40px;
+    height: 40px;
+}
+
+.comments .carousel-inner {
+    max-width: 700px;
+    margin: auto;
+}
+
+.comments .name {
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+.advantage {
+    border-top: 1px solid #eee;
+    text-align: center;
+    background: #fff;
+}
+
+.advantage ul {
+    padding: 0;
+    margin: 0;
+}
+
+.advantage ul li:first-child {
+    border-left: 1px solid #eee;
+}
+
+.advantage ul li {
+    display: table-cell;
+    border-right: 1px solid #eee;
+    padding: 3em 1.5em;
+}
+
+.advantage ul li p {
+    color: #777;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.item {
+    padding: 0;
+}
+
+.buy-workflow,
+.sell-item,
+.buy-item {
+    padding: 160px 0 40px;
+}
+
+.checkout span {
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    padding: 0 4px;
+    margin-right: 5px;
+}
+
+.checkout a {
+    color: #fff;
+}
+
+.checkout a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.checkout {
+    padding-left: 0;
+}
+
+.checkout .fa-arrow-right {
+    transition: 0.3s linear;
+    position: relative;
+    font-size: 12px;
+    margin-left: 0;
+    right: 0;
+}
+
+.checkout a:hover .fa-arrow-right {
+    right: -5px;
+}
+
+.buy-page,
+.sell-page {
+    padding: 100px 0 30px 0;
+    box-shadow: 0 1px 0 0 #eee;
+}
+
+.buy-page h3,
+.sell-page h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    margin: 2em 0;
+    letter-spacing: -.5px;
+}
+
+.models .circle {
+    position: relative;
+    width: auto;
+    box-shadow: 0 0 14px 1px #888;
+    border: 1px dashed #fff;
+    transition: 0.2s linear;
+    top: 0;
+}
+
+.models .circle:hover {
+    top: -20px;
+}
+
+.models span {
+    background: #fff;
+    height: 250px;
+}
+
+.models img {
+    max-width: 100%;
+}
+
+.item .menu-buttons .btn {
+    float: right;
+    min-width: 140px;
+    padding: 10px 8px;
+    font-size: 16px;
+}
+
+.separator {
+    margin: 20px 0;
+}
+
+.models p:hover,
+.show-all b:hover {
+    top: -10px;
+    background: #fff;
+    color: #92cc40;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+.label {
+    padding: 0.2em 0.6em 0.2em;
+    margin: 0 2px;
+}
+
+.description-item div:last-child b {
+    margin-right: 5px;
+}
+
+.p-0-bottom {
+    padding-bottom: 0;
+}
+
+a.brand img {
+    height: 130px;
+    max-width: 100%;
+}
+
+.sell-page h3 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
+.toggle-list {
+    padding-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.plus {
+    display: none;
+}

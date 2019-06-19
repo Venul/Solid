@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="https://meridensolutions.cz/wp-content/themes/meriden/favicon.png" type="image/png">
+        <title>Meriden — Регистрация фирм</title>
+        <meta name="robots" content="noindex,follow">
+        <link rel="dns-prefetch" href="https://s.w.org/">
+        <link rel="stylesheet" id="bs-css" href="css/bootstrap.min.css" type="text/css" media="all">
+        <link rel="stylesheet" id="ft-css" href="css/fonts.css" type="text/css" media="all">
+        <link rel="stylesheet" id="main-css" href="css/style.css" type="text/css" media="all">
+        <link rel='stylesheet' id='ftg-css' href='https://fonts.googleapis.com/css?family=Pacifico&#038;ver=4.7.3' type='text/css' media='all' />
+    </head>
+    
+    <body class="home page-template-default page page-id-2" data-ng-app="uiApplet">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-6 logo">
+                        <big>Meriden</big>
+                        <p class="text">Регистрация фирм.<br class="xs-600-vis"> Открытие счетов.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 tel xs-600-vis">
+                        <p class="time">10.00 <br>18.00</p>
+                        <span class="call_phone_1">
+                            <a href="tel:+74994041292">+7 499 404 12 92</a>
+                        </span>
+                    </div>
+                    <div class="col-md-5 col-sm-5 col-xs-5 mail">
+                        <a href="mailto:hello@meridensolutions.cz">hello@meridensolutions.cz</a>
+                        <span>Praha City Center, Klimentska 46, 110 02 Prague</span>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 tel xs-600-dis">
+                        <span class="time">10.00 - 18.00</span>
+                        <span class="call_phone_1">
+                            <a href="tel:+74994041292">+7 499 404 12 92</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content">
+        <section class="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="button-group">
+                            <div class="list">
+                                <a href="https://meridensolutions.cz/#FirmsintheCzechRepublic" class="btn scroll">Регистрация <br class="xs-600-vis"> компаний</a>
+                                <a href="https://meridensolutions.cz/#LPinScotland" class="btn scroll">Банковские <br class="xs-600-vis">счета</a>
+                                <a href="https://meridensolutions.cz/#AccountsforCzechfirms" class="btn scroll">Мерчант <br class="xs-600-vis">аккаунты</a><br class="xs-767-vis">
+                                <a href="https://meridensolutions.cz/#ScoresfortheScottishLP" class="btn scroll">Компании с POS <br class="xs-600-vis">терминалом</a>
+                                <a href="https://meridensolutions.cz/#VidnazhitelstvovChekhii" class="btn scroll">ВНЖ <br class="xs-600-vis">в Чехии</a>
+                                <a href="https://meridensolutions.cz/#POSterminalintheCzechRepublic" class="btn scroll ">Наши <br class="xs-600-vis">преимущества</a>
+                            </div>
+                            <a href="https://meridensolutions.cz/#POSterminalintheCzechRepublic" class="btn red scroll" data-toggle="modal" data-target="#myModal">Бесплатная консультация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="noice"></div>
+            <div class="container">
+                <div class="col-md-12">
+                    <h1>Готовые бизнес-решения в Европе<br>для Ваших целей!</h1>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="form" data-ng-controller="EmailFormController as vm">
+                        <div class="heading">
+                            <h3>Новые схемы</h3>
+                            <p>перевода денег зарубеж для Юридических лиц</p>
+                        </div>
+                            <form role="search"
+                                  id="email-form"
+                                  method="post"
+                                  name="emailForm"
+                                  ng-submit="emailForm.$valid && vm.submit()"
+                                  novalidate>
+                                <div class="form-group col-md-8 col-sm-8 col-xs-8" data-ng-if="!vm.isSuccess">
+                                    <input type="email"
+                                           class="form-control email"
+                                           placeholder="E-mail"
+                                           required=""
+                                           data-ng-model="vm.email"
+                                           name="email">
+                                </div>
+
+                                <div class="form-group col-md-4 col-sm-4 col-xs-4" data-ng-if="!vm.isSuccess">
+                                    <button type="submit" class="btn">Узнать!</button>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div data-ng-messages="emailForm.$submitted && emailForm.email.$error" class="ng-cloak">
+                                        <div ng-message="required">Нужно заполнить поле имейла</div>
+                                        <div ng-message="email">Имейл не валидный</div>
+                                    </div>
+                                </div>
+
+                                <div class="form-success col-md-12 ng-cloak" data-ng-if="vm.isSuccess">Сообщение отправлено!</div>
+                                <a href="https://meridensolutions.cz/#">Политика конфеденциальности</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div id="myModal" class="modal fade" role="dialog" data-ng-controller="ConsultFormController as vm">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title">Бесплатная консультация</h2>
+                    </div>
+                    <div class="modal-body">
+                        <form role="search" id="email-form" method="post" name="consultForm"
+                              ng-submit="consultForm.$valid && vm.submit()" novalidate>
+                            <div class="form-group col-md-6 col-sm-6" data-ng-if="!vm.isSuccess">
+                                <input type="phone" class="form-control phone" placeholder="Телефон*" required="required"
+                                       autocomplete="on" data-ng-model="vm.phone" name="phone">
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6" data-ng-if="!vm.isSuccess">
+                                <input type="email" class="form-control email" placeholder="E-mail" required=""
+                                       autocomplete="on" data-ng-model="vm.email" name="email">
+                            </div>
+                            <div class="form-group col-md-12" data-ng-if="!vm.isSuccess">
+                        <textarea type="text" class="form-control text" placeholder="Текст сообщения*" required=""
+                                  autocomplete="on" data-ng-model="vm.text" name="text"></textarea>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6" data-ng-if="!vm.isSuccess">
+                                <button type="submit" class="btn">Отправить</button>
+                            </div>
+                            <a href="https://meridensolutions.cz/#" class="col-md-6 col-sm-6">Политика конфеденциальности</a>
+                            <div class="form-success col-md-12 ng-cloak" data-ng-if="vm.isSuccess">Сообщение отправлено!
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section2" id="FirmsintheCzechRepublic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h2>Регистрация фирмы <br>в Чехии</h2>
+                        <p>Срок регистрации: <strong>1 неделя</strong></p>
+                        <p class="red">Виртуальный офис на 1 год бесплатно</p>
+                        <span>€900</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 right">
+                        <h2>Готовое <br> Шотландское LP</h2>
+                        <strong>Два оффшорных партнера<br>Апостилированный комплект документов<br>Доверенность на покупателя<br></strong>
+                        <span>€1400</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section3" id="AccountsforCzechfirms">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <h2>Открытие счета<br>на фирму-резидента Чехии</h2>
+                        <p class="red">Личное присутствие</p>
+                        <small>Срок регистрации: <strong>1 бизнес день</strong></small>
+                        <small>Банки: <strong>Ceska Sporitelna (Чехия), Unicredit (Чехия), Raiffeisen (Чехия)</strong></small>
+                        <span>€500</span>
+                        <p class="red">Дистанционное открытие</p>
+                        <small>Срок регистрации: <strong>10 бизнес дней</strong></small>
+                        <small>Банки: <strong>Unicredit (Чехия), Raiffeisen (Чехия)</strong></small>
+                        <span>€1500</span>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <h2>Открытие счета<br>на Шотландское LP</h2>
+                        <p class="red">Личное присутствие</p>
+                        <small>Срок регистрации: <strong>1 бизнес день</strong></small>
+                        <small>Банки: <strong>Ceska Sporitelna (Чехия), Unicredit (Чехия)</strong></small>
+                        <span>€900</span>
+                        <p class="red">Дистанционное открытие</p>
+                        <small>Срок регистрации: <strong>10 бизнес дней</strong></small>
+                        <small>Банки: <strong>Unicredit (Чехия)</strong></small>
+                        <span>€2000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Мерчант-аккаунт</h2>
+                        <h3>комплексное подключение для e-commerce проектов</h3>
+                        <div class="red col-md-5 col-sm-6">
+                            <p>1. Выбор юрисдикции и создание компании</p>
+                            <p>2. Разработка веб-сайта компании с учетом внедрения merchant account и устранением недостатков согласно требованиям банка</p>
+                            <p>3. Открытие расчетного счета компании в лояльном банке-партнере</p>
+                            <p>4. Подача заявки в процессинговую компанию</p>
+                            <p>5. Открытие мерчант-аккаунта</p>
+                        </div>
+                        <div class="col-md-5 col-sm-6">
+                            <img src="img/browser.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 green">
+                        <h3>Мы подключаем merchant account следующим видам бизнеса:</h3>
+                        <div class="col-md-6">
+                            <p>Интернет-торговле реальными товарами и услугами</p>
+                            <p>Adult and Dating</p>
+                            <p>Торговле программным обеспечением и сопутствующими приложениями</p>
+                            <p>Телемаркетингу</p>
+                            <p>Форексу и бинарным опционам</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Гемблингу</p>
+                            <p>Торговле фармацевтическими продуктами</p>
+                            <p>MLM</p>
+                            <p>Penny Auctions</p>
+                            <p>Туристическим агентствам</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 block">
+                        <div class="col-md-4 col-sm-4">
+                            <strong>Мерчант аккаунт<br> в банке Чехии</strong>
+                            <span class="first-price">€500</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <strong>Мерчант аккаунт<br> + счет в банке Чехии</strong>
+                            <p>дистанционно</p>
+                            <span>€2000</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <strong>Мерчант аккаунт<br> + счет на Шотландское LP</strong>
+                            <p>дистанционно</p>
+                            <span>€2500</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- section6 -->
+        <section class="section6" id="POSterminalintheCzechRepublic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-9 col-sm-12">
+                        <small>Спецпредложение</small>
+                        <h2>Компания плюс<br>POS терминал в Чехии</h2>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <h3>Raiffeisen</h3>
+                                <ul>
+                                    <li>Возможность принимать рубль<br><span>сразу на счет компании</span></li>
+                                    <li>Цена за транзакцию<span> 1.9%</span></li>
+                                    <li>Выплаты на счеткомпании —<br><span>следующий день</span></li>
+                                    <li>Время выдачи POS терминала —<br><span>14 бизнес дней</span></li>
+                                </ul>
+                                <span class="price">
+                                    €5000
+                                    <small>(счет + POS терминал)</small>
+                                </span>
+                            </div>
+                            <div class="col-md-6 col-sm-6 right">
+                                <h3>Unicredit</h3>
+                                <ul>
+                                    <li>Возможность принимать рубль <br><span>сразу на счет компании</span></li>
+                                    <li>Цена за транзакцию<span> 2%</span></li>
+                                    <li>Выплаты на счет компании —<br><span>следующий день</span></li>
+                                    <li>Время выдачи POS терминала —<br><span>14 бизнес дней</span></li>
+                                </ul>
+                                <span class="price">
+                                    €5000
+                                    <small>(счет + POS терминал)</small>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <section class="section7" id="VidnazhitelstvovChekhii">
+            <div class="bg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Вид на жительство <br>в Чехии</h2>
+                        <ul>
+                            <li>Срок оформления — <strong>3 месяца</strong></li>
+                            <li>Основание — <strong>бизнес</strong></li>
+                        </ul>
+                        <span>€2000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <section class="section8">
+            <div class="bg"></div>
+            <div class="container xs-600-dis">
+                <h2>Наша компания распологается непосредственно в Чехии и является конечным исполнителем работ по Вашим заказам.</h2>
+                <div class="col-md-12 col-sm-12">
+                    <div class="col-md-3 col-sm-3 hidden-xs"></div>
+                    <div class="col-md-4 col-sm-4">Мы</div>
+                    <div class="col-md-4 col-sm-4">Посредники в РФ</div>
+                </div>
+                <div class="col-md-12 col-sm-12 shadow">
+                    <div class="col-md-3 col-sm-3 hidden-xs">Цены</div>
+                    <div class="col-md-4 col-sm-4 price-cel orange">Низкие цены</div>
+                    <div class="col-md-4 col-sm-4 red">Высокие цены из-за накруток посредника</div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <div class="col-md-3 col-sm-3 hidden-xs">Сроки исполнения</div>
+                    <div class="col-md-4 col-sm-4 orange">Оптимальные сроки исполнения заказа</div>
+                    <div class="col-md-4 col-sm-4 red">Затянутые сроки из-за неорганизованности посредника</div>
+                </div>
+                <div class="col-md-12 col-sm-12 shadow">
+                    <div class="col-md-3 col-sm-3 hidden-xs">Конфиденциальность</div>
+                    <div class="col-md-4 col-sm-4 orange">Ваши документы находятся в ЕС и никогда не будут доступны третьим лицам</div>
+                    <div class="col-md-4 col-sm-4 red">Ваши документы проходят через РФ офис и в любой момент могут быть изьяты третьими лицами</div>
+                </div>
+            </div>
+            <div class="container xs-600-vis">
+                <h2>Наша компания распологается непосредственно в Чехии и является конечным исполнителем работ по Вашим заказам.</h2>
+                <div class="col-sm-12">
+                    <div class="first-col">Мы</div>
+                    <div class="shadow">
+                        <div class="price-cel orange">Низкие цены</div>
+                    </div>
+                    <div class="orange">Оптимальные сроки исполнения заказа</div>
+                    <div class="shadow">
+                        <div class="orange">Ваши документы находятся в ЕС и никогда не будут доступны третьим лицам</div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="first-col">Посредники в РФ</div>
+                    <div class="shadow">
+                        <div class="red">Высокие цены из-за накруток посредника</div>
+                    </div>
+                    <div class="red">Затянутые сроки из-за неорганизованности посредника</div>
+                    <div class="shadow">
+                        <div class="red">Ваши документы проходят через РФ офис и в любой момент могут быть изьяты третьими лицами</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-4 logo">
+                        <big>Meriden</big>
+                        <span>Регистрация фирм. Открытие счетов.</span>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text">
+                        Адрес в Праге
+                        <strong>Praha City Center,</strong>
+                        <strong>Klimentska 46, 110 02 Prague</strong>
+                    </div>
+                    <div class="col-md-3 col-sm-4 tel">
+                        <span class="call_phone_2"><a href="tel:+74994041292">+7 499 404 12 92</a></span>
+                        <a class="mailto" href="mailto:hello@meridensolutions.cz">hello@meridensolutions.cz</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- copy -->
+        <section class="copy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        MERIDEN TRADING LP. Company number SL027133, adress 39 Duke Street, Edinburgh, United Kingdom, EH6 8HH. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-animate.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-messages.min.js"></script>
+
+        <script src="/js/app/app.js"></script>
+        <script src="/js/app/controllers/email-form.controller.js"></script>
+        <script src="/js/app/controllers/consult-form.controller.js"></script>
+        <script src="/js/app/services/router-helper.service.js"></script>
+        <script src="/js/app/factories/request.factory.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,463 @@
+body {
+    margin-top: 100px;
+}
+
+.checkout {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+/*    убрать в коммон*/
+}
+
+.checkout-header-complete {
+    text-align: center;
+}
+
+.checkout-header-complete .complete-order {
+    background: #f8ffed;
+    border-radius: 200px 60px 60px 200px;
+    -moz-border-radius: 200px 60px 60px 200px;
+    -webkit-border-radius: 200px 60px 60px 200px;
+    border: 1px solid #91ce33;
+}
+
+.checkout-header-complete h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.checkout-header-complete p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.checkout-header-complete p {
+    margin-bottom: 0;
+}
+
+.checkout-header-complete p span {
+    color: #91ce33;
+}
+
+.checkout-header-complete .print {
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 3px 5px;
+    width: max-content;
+    margin-top: 15px;
+}
+
+.checkout-header-complete .print img {
+    display: inline;
+}
+
+.checkout-order {
+    padding-top: 10px;
+}
+
+.checkout-order p {
+    font-size: 25px;
+    color: #fff;
+}
+
+.checkout-order p {
+    background: #91ce33;
+    border-radius: 0 200px 200px 0;
+    -moz-border-radius: 0 200px 200px 0;
+    -webkit-border-radius: 0 200px 200px 0;
+    border: 2px solid #91ce33;
+    display: inline;
+    padding-right: 15px;
+}
+
+.complete-order .complete img {
+    float: left;
+}
+
+.complete-order div:first-child {
+    padding-left: 0;
+}
+
+.total-cost .total {
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.radio input[type=radio], .radio-inline input[type=radio], .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox] {
+    float: none;
+    margin: 0;
+}
+
+.radio,
+.checkbox {
+    display: inline;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #ddd;
+    margin-left: 45px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.header-table,
+th {
+    text-align: center;
+}
+
+.image img {
+    padding-top: 5px;
+}
+
+.header-table .row {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.checkout .first-col {
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.header-table th {
+    background: #f3fae7;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    vertical-align: middle;
+    font-weight: initial;
+}
+
+.checkout .menu-buttons {
+    margin-top: 0;
+    text-align: center;
+}
+
+.counter input {
+    width: 20px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    height: 33px;
+}
+
+.counter button {
+    border: none;
+    background: inherit;
+    color: #91ce33;
+}
+
+.counter button:focus {
+    outline-color: #fff;
+}
+
+.counter {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    width: 95px;
+    height: 35px;
+    margin: 0 auto;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.arrow-collapse {
+    width: 90px;
+    background: #91ce33;
+    margin: 0 auto;
+    height: 25px;
+}
+
+.arrow-collapse img {
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.panel-default>.panel-heading {
+    padding: 0;
+    background: #e5e5e5;
+    border: none;
+}
+
+.act,
+.menu-buttons .btn.act:hover {
+    background: #f7894f;
+    color: #fff;
+    border-color: #f7894f;
+}
+
+.deact,
+.menu-buttons .btn.deact:hover {
+    background: #d3d3d3;
+    color: #fff;
+    border-color: #d3d3d3;
+}
+
+.menu-buttons .btn.deact {
+    -webkit-box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.1);
+    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-table .btn {
+    min-width: 90px;
+}
+
+.header-table .menu-buttons p img {
+    width: 25px;
+    display: inline;
+    vertical-align: bottom;
+}
+
+.header-table .menu-buttons p {
+    color: #91ce33;
+    text-align: center;
+}
+
+td.button {
+    background: #fcfcfc;
+}
+
+.checkout-panel .active {
+    border-radius: 0 0 5px 5px;
+}
+
+.body-checkout {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 5px;
+}
+
+.body-checkout .row {
+    padding: 5px 100px 10px 100px;
+}
+
+.body-checkout thead {
+    background: #fbfbfb;
+}
+
+.body-checkout select {
+    margin-top: 30px;
+}
+
+.checkout-panel .nav-tabs>li.active>a {
+    border-radius: 5px 5px 0 0;
+    background: #f7f7f7;
+}
+
+.checkout-panel ul li a {
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+
+.checkout-panel ul li a:hover {
+    color: #000;
+}
+
+.checkout-panel .nav-tabs>li a.border-right-none {
+    border-right-style: none;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.customer-info p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 35px 0 5px;
+    text-transform: uppercase;
+}
+
+.bor-none,
+.checkout-panel .bor-none,
+.nav-tabs.payment>li.active>a {
+    border: none;
+}
+
+.nav-tabs.payment>li>a:hover {
+    background: inherit;
+    cursor: pointer;
+}
+
+.nav.payment>li>a {
+    padding-top: 0;
+    padding-left: 0;
+
+}
+
+.customer-info .table th,
+.customer-info .table td {
+    text-align: center;
+}
+
+.customer-info .image {
+    display: inline-block;
+}
+
+.customer-info .place img {
+    width: 20px;
+    height: 20px;
+}
+
+.customer-info .table {
+    margin-top: 20px;
+}
+
+.popover {
+    position: relative;
+    display: block;
+    float: right;
+    width: 215px;
+    background: #f7f7f7;
+    box-shadow: none;
+    border-radius: 6px 0 0 6px;
+}
+
+.form-control {
+    height: 40px;
+}
+
+.total-cost span,
+.bottom-checkout .table>tbody>tr>td {
+    border: #f7f7f7;
+}
+
+.popover.left>.arrow:after {
+    border-left-color: #f7f7f7;
+}
+
+.total-cost p {
+    padding: 2px 0;
+    margin: 0;
+    width: 180px;
+    font-weight: normal;
+}
+
+.total-cost span {
+    float: right;
+}
+
+.bottom-checkout .table>tbody>tr>td {
+    padding: 0;
+}
+
+.confirm {
+    text-align: center;
+}
+
+.bottom-checkout .table>tbody>tr>.confirm {
+    border: 1px solid #e5e5e5;
+    border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    -khtml-border-radius: 0 6px 6px 0;
+    width: 250px;
+    border-left: none;
+}
+
+.bottom-checkout .table {
+    border-collapse: inherit;
+}
+
+.bottom-checkout .confirm .menu-buttons {
+    text-align: center;
+}
+
+.checkout .btn {
+    text-transform: inherit;
+}
+
+.footer-checkout {
+    padding: 15px 0;
+    background: #f3fae7;
+    margin: 0;
+
+}
+
+.footer-checkout .menu-buttons {
+    text-align: center;
+}
+
+.footer-checkout .menu-buttons .circle-img {
+    border-radius: 25px;
+    padding: 10px;
+    position: absolute;
+    background: #f7894f;
+    top: -7px;
+    left: -30px;
+    width: 45px;
+    height: 45px;
+}
+
+.footer-checkout .menu-buttons .btn {
+    border-radius: 0 20px 20px 0;
+    padding-right: 20px;
+/*    font-size: 16px;*/
+}
+
+.footer-checkout .menu-buttons .continue .circle-img,
+.footer-checkout .menu-buttons .continue {
+    background: #93d624;
+}
+
+.footer-checkout .continue:hover {
+    background: #93d624;
+    color: #fff;
+    border-color: #93d624;
+}
+
+.panel-collapse {
+    margin-bottom: 10px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    color: #000;
+}
+
+.total-cost p {
+    text-transform: none;
+}
+
+.bottom-checkout .act.pull-right {
+    margin-top: 10px;
+}
+
+.pickup {
+    float: right;
+    padding: 25px 120px 0 0;
+}
+
+.body-checkout hr {
+    border: 1px solid #f7f7f7;
+    border-top: 1px solid #bebebe;
+    padding-bottom: 10px;
+}
+
+.store-adress {
+    padding: 35px 0;
+}
+
+.store-adress p {
+    padding: 0;
+    margin: 0;
+    text-transform: none;
+}
